@@ -38,7 +38,7 @@ class Solution {
                     } else {
                         right--;
                     }
-                }
+                } 
             }
         }
 

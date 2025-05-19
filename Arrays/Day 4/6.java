@@ -4,6 +4,7 @@ class Solution {
         int maxlength = 0;
         int n = s.length();
         HashMap<Character,Integer> mpp = new HashMap<>();
+        
         while(right < n){
             if(mpp.containsKey(s.charAt(right))){
                 left = Math.max(mpp.get(s.charAt(right)) + 1 , left);
